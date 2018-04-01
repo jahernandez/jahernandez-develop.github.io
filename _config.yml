@@ -1,0 +1,31 @@
+# Theme: https://github.com/niklasbuschmann/contrast/
+
+title: "José Alberto Hernández"
+author: "José Alberto Hernández"
+description: "Mi blog personal donde poder plasmar mis experiencias profesionales y tecnológicas"
+more: "read more »"
+url: "https://jahernandez.github.io/"
+paginate: 2
+permalink: pretty
+excerpt_separator: "\n\n\n" # two blank lines
+
+style:
+  minimalist: false
+  dark: false
+
+navigation:
+  - index.html
+  - archive.html
+  - about.md
+
+comments:
+#  disqus: "disqus-contrast"
+#  isso: "comments.mysite.org"
+
+links: # see http://fontawesome.io/icons/#brand for all possible icons
+  - twitter: "https://twitter.com/josealberto___/"
+  - github: "https://github.com/jahernandez"
+
+defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
+sass: {style: expanded}
+plugins: [jekyll-feed, jekyll-paginate]
