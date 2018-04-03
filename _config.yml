@@ -16,7 +16,6 @@ style:
 navigation:
   - index.html
   - archive.html
-  - about.md
 
 comments:
 #  disqus: "disqus-contrast"
