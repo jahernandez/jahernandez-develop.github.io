@@ -12,7 +12,7 @@ Para la elaboración de esta guía se han empleado las versiones de las siguient
 * Maven 3.5.3
 * Scala 2.11.12
 
-# Generación del proyecto
+## Generación del proyecto
 
 Para generar la estructura básica del proyecto vamos a utilizar el arquetipo que proporciona el plugin para Maven de Scala. Un arquetipo no es más que una plantilla parametrizada con una estructura de proyecto predefinida. Indicaremos la última versión disponible hasta la fecha.
 
@@ -44,7 +44,7 @@ scala-maven-project-example/
                 └── specs.scala
 ```
 
-# Configuración del proyecto generado
+## Configuración del proyecto generado
 
 A continuación tenemos que realizar una serie de modificaciones en el `pom.xml` del proyecto.
 
@@ -85,7 +85,7 @@ Por último, solo queda ejecutar el siguiente comando para compilar y ejecutar l
 mvn package
 ```
 
-# Notas finales
+## Notas finales
 
 En esta entrada hemos visto como crear la estructura de un proyecto Scala con Maven a partir del arquetipo oficial. A pesar de ello, no está muy pulida y hay que modificar algunos aspectos del `pom.xml` para que el proyecto compile y ejecute los tests.
 
